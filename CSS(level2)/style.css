@@ -1,0 +1,88 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h3{
+    color:#b92b27;
+}
+#login{
+    background-color: white;
+
+}
+#signup{
+    background-color: #b92b27;
+    color:white;
+}
+.upvote{
+    background-color: greenyellow;
+    color: rgb(3, 51, 94);
+}
+p .follow{
+    color:purple;
+    background-color: lightcyan;
+}
+nav ul li a{
+    color:rgb(236, 7, 7)
+}
+p + h3 {
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: #ffb288;
+}
+div > input{
+    background-color: rgba(238, 215, 215, 0.229);
+    color: rgb(218, 10, 10);
+}
+div input[type="text"]{
+    background-color: #c9f1ff;
+}
+div input[type]{
+    background-color: ghostwhite;
+}
+div#myId p{
+    color: #000000;
+}
+#myId p{
+    background-color: rgb(219, 149, 149);
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+div input[type="radio"]:checked + label{
+    color:red;
+    font-weight: bold;
+}
+div:nth-of-type(2n){
+    background-color:rgb(206, 255, 177);
+}
+h1::first-letter{
+    color:#180a02
+}
+p::first-line{
+    color:blueviolet;
+}
+h1::after{
+    content:"Quora";
+    color:chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1::before{
+    content:"";
+}
+p::selection{
+    background-color: rgb(255, 255, 0);
+}
+h3::first-line{
+    background-color: #fff;
+}
+header div input::placeholder{
+    color:#b92b27;
+}

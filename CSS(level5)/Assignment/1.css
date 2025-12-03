@@ -1,0 +1,18 @@
+#container {
+    height: 100px;
+    width: 100%;
+    border:2px solid;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-content: center;
+}
+#item {
+    flex-basis: 150px;
+    font-size:2em;
+    text-align: center;
+    background-color:rgb(240, 240, 227);
+    
+}

@@ -1,0 +1,23 @@
+#container {
+    height:400px;
+    width:80%;
+    border:2px solid rgb(18, 160, 249);
+    border-radius: 2.5%;
+    margin:10px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content:flex-start;
+    justify-content: space-around;
+}
+#item {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:gray;
+    color: white;
+    border-radius: 15%;
+    font-size: 3em;
+    text-align: center;
+}

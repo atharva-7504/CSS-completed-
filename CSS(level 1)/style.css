@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    text-decoration: red underline ;
+    letter-spacing: 5px;
+}
+h2{
+    text-align: start;
+    text-decoration:black overline double 3px;
+}
+p{
+    font-weight: lighter;
+}
+
+h3{
+    text-decoration: line-through black ;
+}
+a{
+    text-decoration:none;
+}

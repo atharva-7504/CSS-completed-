@@ -1,0 +1,27 @@
+#card {
+    height:350px;
+    width:260px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin:30px;
+    border: 3px  black;
+    border-radius:10px;
+    box-shadow: 5px 5px 8px black;
+    transition: 1s;
+}
+#desc {
+    padding:5px;
+    margin:0px 8px 0px 8px;
+}
+#card:hover{
+    box-shadow: 6px 8px 12px rgb(0, 0, 0);
+    transform: scale(1.1);
+    
+}
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:underline;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

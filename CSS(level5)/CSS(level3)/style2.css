@@ -1,0 +1,20 @@
+h2{
+ display:inline;
+}
+span{
+    display:block;
+}
+#inline{
+    display: inline;
+    border:2px solid black;
+    height: 100px;
+    width:200px;
+    padding: 100px;
+    margin:50px
+}
+div{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    display:inline-block;
+}

@@ -1,0 +1,13 @@
+div{
+    background-color: aqua;
+}
+input{
+    background-color: aqua;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+}
+button{
+    background-color: initial;
+}

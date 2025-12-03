@@ -1,0 +1,29 @@
+h1{
+    border:2px solid black;
+    width:30%
+}
+#outer {
+    height:400px;
+    width:400px;
+    background-color: rgb(226, 226, 130);
+    border:2px solid black;
+    text-align: center;
+    font-size: 25px;
+}
+#inner {
+    height:200px;
+    width:200px;
+    background-color: rgb(80, 142, 212);
+    border:2px solid black;
+    font-size: 2em;
+    padding:1em;
+    margin: 1em;
+}
+button{
+    font-size:30px;
+    margin:20px;
+    border:2px solid black;
+    border-radius: 40px;
+    padding-left:1em;
+    padding-right: 1em;
+}

@@ -1,0 +1,40 @@
+/* Part A (SELECTORS)*/
+
+#MainTopic {
+    color:blue;
+}
+*{
+    text-align:center;
+}
+h1,h3,h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para {
+    color:white;
+    background-color: cornflowerblue;
+}
+div button {
+    background-color: purple;
+    color:azure
+}
+
+/* Part B (PSEUDO CLASS & ELEMENTS) */
+div button:hover{
+    background-color: yellow;
+    color:blue;
+}
+.para:nth-of-type(odd){
+    color:yellow;
+}
+#MainTopic::first-letter {
+    color:red;
+}
+/* div input[type="checkbox"]:checked + label {
+    color:darkgreen;
+    font-weight:bold
+} */
+  /* or */
+#yes:checked + label{
+    color:green;
+    font-weight: bolder;
+}
